@@ -1,0 +1,295 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+fieldset{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.form{
+    margin : 0 auto;
+    max-width: 700px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color:  rgb(11, 64, 114);
+    text-transform: capitalize;
+    color: white;
+}
+
+h3{
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.controles{
+    border: solid 1px #ccc;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border-color: rgb(177, 176, 176);
+    width: 95%;
+    height: 28px;
+    margin-bottom:20px;
+}
+
+legend{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#btnSubmit{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    background-color: lightgreen;
+    border-color: green;
+    border-radius: 10px;
+    background-image: url('../img/save.svg');
+    background-position: 10px;
+    background-size: 15px;
+    background-repeat:no-repeat;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+#btnEliminar{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(241, 82, 82);
+    border-color: red;
+    border-radius: 10px;
+    background-image: url('../img/delete.svg');
+    background-size: 15px;
+    background-repeat:no-repeat;
+    background-position: 10px;
+}
+
+#btnCancelar{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(11, 64, 114);
+    border-color: rgb(30, 4, 126);
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 15px;
+    color: white;
+    background-image: url('../img/cruzar.png');
+    background-size: 20px;
+    background-repeat:no-repeat;
+    background-position: 10px;
+}
+
+.rdos{
+    margin: 15px;
+    margin-bottom:20px;
+
+}
+
+.spanRdo{
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header{
+    height: 120px;
+    display: flex;
+    background-color: rgb(216, 94, 37);
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 70px;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    background-color: rgb(216, 94, 37);
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 50px;
+}
+
+nav {
+    display:flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(216, 94, 37);
+    font-size: 19px;
+    padding: 2px;
+}
+
+nav>ul{
+    display: table-column;
+    list-style-type: none;
+}
+
+li{
+    padding: 3px;
+}
+
+img{
+    width: 120px;
+    height: 80px;
+}
+
+p{
+    color: white;
+    margin-right: 50px;
+}
+
+#imagenPortada{
+    width: 100%;
+    height: 530px;
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    nav>ul{
+        display: table-column;
+        list-style-type: none;
+    }
+
+    nav a{
+        font-size: 16px;
+        padding: 2px;
+    }
+
+    li{
+        padding: 3px;
+    }
+
+    .form{
+        margin : 0 auto;
+        max-width: 450px;
+    }
+
+    .controles{
+        width: 93%;
+    }
+    
+}
+
+.inputError{
+    border: 1.5px solid red;
+    box-shadow: 0 0 6px red;
+    margin-bottom:4px;
+}
+
+
+.advertencia{
+    font-weight: bold;
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(236, 58, 58);
+    margin: 8px;
+    font-size: 12px;
+}
+
+.inputValidado{
+    border: 2px solid green;
+    box-shadow: 0 0 7px green;
+}
+
+
+/* tabla */
+.lista{
+    margin : 0 auto;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.gris{
+    background-color: rgba(148, 148, 148, 0.829);
+}
+
+.puntero{
+    cursor: pointer;
+}
+
+.oculto{
+    display:none;
+}
+
+#divSpinner{
+    margin : 0 auto;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#txtRaza{
+    background-image: url('../img/gatito.png');
+    background-size: 25px;
+    background-repeat:no-repeat;
+    background-position: 10px;
+    padding-left: 50px;
+    width: 89%;
+}
+
+#txtFechaNacimiento{
+    background-image: url('../img/ciguena.png');
+    background-size: 25px;
+    background-repeat:no-repeat;
+    background-position: 10px;
+    padding-left: 50px;
+    width: 89%;
+}
+
+#select{
+    background-image: url('../img/vacunacion.png');
+    background-size: 25px;
+    background-repeat:no-repeat;
+    background-position: 10px;
+    padding-left: 50px;
+    width: 89%;
+}
+
+footer nav {
+    display:flex;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(216, 94, 37);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+footer nav>ul{
+    display: flex;
+    list-style-type: none;
+}
